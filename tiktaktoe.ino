@@ -12,7 +12,7 @@ class check{
   //int getArray(int array[][]);
   //int setArray();
   private: 
-  convertInputToArray(int inputInAscii);
+  void convertInputToArray(int inputInAscii);
   
   //int array[3][3];
 };
