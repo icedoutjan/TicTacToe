@@ -5,15 +5,13 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 
 # Arduino Board
 
-* 4 Led Matrizen
-* 1 Arduino Mega
-* 1 LCD Display
-* 1 KeyPad
-
-<img src="assets/KeyPad.png" width="200" height="200" alt="KeyPad">
-<img src="assets/LCD.png" width="300" height="200" alt="LCD">
-<img src="assets/Matrix.png" width="200" height="200" alt="Matrix">
-<img src="assets/ArduinoMega.png" width="200" height="200" alt="Arduino Board">
+| Syntax      | Description | Description |
+| ----------- | ----------- | ----------- |      
+| 1      | Arduino Mega      | <img src="assets/ArduinoMega.png" width="200" height="200" alt="Arduino Board"> |
+| 4      | Led Matrizen      | <img src="assets/Matrix.png" width="200" height="200" alt="Matrix"> |
+| 1      | LCD Display      | <img src="assets/LCD.png" width="300" height="200" alt="LCD"> |
+| 1      | KeyPad      | <img src="assets/KeyPad.png" width="200" height="200" alt="KeyPad"> |
+| 3      | Header      | Title |
 
 
 # To Dos
