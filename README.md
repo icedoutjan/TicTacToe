@@ -10,4 +10,4 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 * 1 LCD Display
 * 1 KeyPad
 
-![alt KeyPad](assets/keypad.jpg)
+
