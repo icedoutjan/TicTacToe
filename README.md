@@ -10,4 +10,5 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 * 1 LCD Display
 * 1 KeyPad
 
+<img src="assets/keypad.jpg" width="200" height="200" alt="KeyPad">
 
