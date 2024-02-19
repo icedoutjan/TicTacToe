@@ -12,3 +12,6 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 
 <img src="assets/keypad.jpg" width="200" height="200" alt="KeyPad">
 
+
+# To Dos
+- [ ] Refaktoring der check funktionen
