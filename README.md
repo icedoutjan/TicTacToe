@@ -11,6 +11,8 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 * 1 KeyPad
 
 <img src="assets/KeyPad.png" width="200" height="200" alt="KeyPad">
+<img src="assets/LCD.png" width="200" height="200" alt="LCD">
+<img src="assets/Matrix.png" width="200" height="200" alt="Matrix">
 
 
 # To Dos
