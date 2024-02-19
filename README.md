@@ -5,7 +5,7 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 
 # Arduino Board
 
-| Syntax      | Description | Description |
+| Amount      | Description | Img |
 | ----------- | ----------- | ----------- |      
 | 1      | Arduino Mega      | <img src="assets/ArduinoMega.png" width="200" height="200" alt="Arduino Board"> |
 | 4      | Led Matrizen      | <img src="assets/Matrix.png" width="200" height="200" alt="Matrix"> |
