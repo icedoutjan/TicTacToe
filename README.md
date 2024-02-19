@@ -5,7 +5,7 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 
 
 # Arduino Board
-- 4 Led Matrisen
+- 4 Led Matrizen
 - 1 Arduino Mega
 - 1 LCD Display
 - 1 KeyPad
