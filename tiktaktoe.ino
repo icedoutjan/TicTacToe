@@ -4,19 +4,21 @@
 #include "print.h"
 
 
-
 class check{
   public:
   void eingabe();
   void kreutz();
   void achsen();
   //int getArray(int array[][]);
-  //private:
+  //int setArray();
+  private: 
+  convertInputToArray(int inputInAscii);
+  
   //int array[3][3];
 };
 
 //Debug
-  //bool debug = false;
+  bool debug = false;
 
 //spiel mechanig variablen
   int player;
@@ -29,7 +31,6 @@ class check{
   String spielername; 
 
 //variablen erweitertes spiel
-
 
 // Keypad Configuration
 // https://www.roboter-bausatz.de/projekte/4x4-tastenfeld-mit-arduino-ansteuern
@@ -49,10 +50,11 @@ class check{
   LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // setup the print class
-  print print;
+  print print;  //is for the visual stuff 
 
 // setup the check class
-  check check;
+  check check;  //the check class does some game logic 
+
 void setup() {
   Serial.begin(9600);
   // LCD Setup
@@ -78,7 +80,11 @@ void loop() {
   for (int runde = 1; runde <= 9; runde++) {  //main spiel
     
     spielername = playerSwitch(runde); //variable für den entsprecheden spieler setzen 
-    
+    if (debug) {
+      Serial.println("======");
+      Serial.println(spielername);
+    }
+
     lcdPrint("warte auf eingabe");
 
     check.eingabe();  // eingabe bekommen und prüfen ob das feld verfügbar ist 
@@ -88,6 +94,10 @@ void loop() {
     print.symbol(x, y, player); //gibt den letzen zug aus bassierend auf der wiederholung der for schleife 
     
     if (gewonnen) {  // prüfen ob der spieler mit dem letzten zug einen sieg erziehlt hat 
+      if (debug) {
+        Serial.print("spiel wurde gewonnen von spieler ");
+        Serial.println(player);
+      }
       lcdPrint("hat gewonnen");
       print.clear();
       print.krone(player);
@@ -108,7 +118,7 @@ void lcdPrint(String meldung) { // vereinfacht die ausgabe auf dem lcd display
   lcd.clear();
   lcd.print(spielername);
   lcd.setCursor(0, 1);
-  lcd.println(meldung);
+  lcd.print(meldung);
 }
 int inPutKeyPad() {
   for (;;) {
@@ -131,7 +141,7 @@ int inPutKeyPad() {
     return KeyAsInt;
   }
 }
-void convertInputToArray(int inputInAscii) {
+void check::convertInputToArray(int inputInAscii) {
   switch (inputInAscii) {
     case 49: // 1
       x = 0;
