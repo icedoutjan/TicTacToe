@@ -15,4 +15,8 @@ I wrote the code with [@Burgerlein](https://github.com/Burgerlein) in college cl
 
 # how it works 
 The playing field is visualized on the 4 LED matrices. The playing field can also be played on a martix, but it's not as pretty.
+<br>
 Information and error messages are displayed on the LCD display, such as when a field is occupied or whose turn it is.
+<br><br>
+The keypad is intended for selecting the field. The numbers 1-9 represent the playing field.
+<br><br>
