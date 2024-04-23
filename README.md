@@ -22,7 +22,7 @@ The keypad is intended for selecting the field. The numbers 1-9 represent the pl
 <br><br>
 The program is always waiting for input while no other code is being executed. After each entry, the entry is checked according to the following criteria:
 1. is the input a valid number.
-2. is the number taken
-3. is the number the missing piece for a win
+2. is the number taken.
+3. is the number the missing piece for a win.
 <br>
 When the game ends, a message is output with the game result and all variables are reset for the next round.
